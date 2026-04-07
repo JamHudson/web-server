@@ -14,11 +14,11 @@
     "url": ""
   },
   "scripts": {
-    "dev": "nodemon --env-file=.env src/server.js",
+    "dev": "nodemon",
+    "prod": "node --env-file=.env src/server.js",
     "test": ""
   },
   "dependencies": {
-    "dotenv": "^17.4.1",
     "express": "^5.2.1"
   },
   "devDependencies": {
